@@ -1,0 +1,12 @@
+#palette {
+  display: flex; }
+  #palette .col {
+    display: flex;
+    flex-direction: column; }
+    #palette .col div {
+      margin: 10px;
+      width: 100px;
+      height: 100px;
+      opacity: 0; }
+
+/*# sourceMappingURL=display_1484062377.css.map */
