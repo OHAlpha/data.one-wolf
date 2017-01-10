@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/stylesheets/palette/display.scss"],"names":[],"mappings":"AAAA;EACE,qBAAa;EAAb,qBAAa;EAAb,cAAa,EAAA;EACb;IACE,qBAAa;IAAb,qBAAa;IAAb,cAAa;IACb,6BAAsB;IAAtB,8BAAsB;QAAtB,2BAAsB;YAAtB,uBAAsB,EAAA;IACtB;MACE,aAAY;MACZ,aAAY;MACZ,cAAa;MACb,WAAU,EAAA","file":"display.prefixed.css"}

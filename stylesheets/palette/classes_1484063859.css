@@ -1,0 +1,51 @@
+/*
+Error: Undefined variable: "$theme-cols-num".
+        on line 1 of src/stylesheets/palette/classes.scss
+
+1: @for $i from 1 through $theme-cols-num {
+2:     $name: nth($theme-cols-names,$i);
+3:     $colors: nth($theme-cols,$i);
+4:     @for $j from 0 to 5 {
+5:         .background-#{$name}-#{$j} {
+6:             background-color: nth($colors,$j+1);
+
+Backtrace:
+src/stylesheets/palette/classes.scss:1
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.23/lib/sass/script/tree/variable.rb:49:in `_perform'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.23/lib/sass/script/tree/node.rb:58:in `perform'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:259:in `visit_for'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `map'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:36:in `css_tree'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:391:in `run'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.23/bin/sass:13:in `<top (required)>'
+/usr/local/rvm/gems/ruby-2.3.0/bin/sass:23:in `load'
+/usr/local/rvm/gems/ruby-2.3.0/bin/sass:23:in `<main>'
+/usr/local/rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `eval'
+/usr/local/rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$theme-cols-num\".\A         on line 1 of src/stylesheets/palette/classes.scss\A \A 1: @for $i from 1 through $theme-cols-num {\A 2:     $name: nth($theme-cols-names,$i);\A 3:     $colors: nth($theme-cols,$i);\A 4:     @for $j from 0 to 5 {\A 5:         .background-#{$name}-#{$j} {\A 6:             background-color: nth($colors,$j+1);"; }
