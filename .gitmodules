@@ -1,0 +1,3 @@
+[submodule "src/stylesheets"]
+	path = src/stylesheets
+	url = https://github.com/OHAlpha/data.one-wolf-style
